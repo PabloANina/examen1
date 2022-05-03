@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  display: flex;
+  background-color: rgb(226, 226, 200);
+  padding: 30px;
+  justify-content: space-evenly;
+  margin: auto 50px;
+
+}
+
+.link {
+  display: flex;
+  background-color: rgb(206, 206, 192);
+  padding: 20px;
+  justify-content: space-evenly;
+  width: 600px;
+  font-size: 20px;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+.boton {
+  display: flex;
+  background-color: rgb(235, 12, 205);
+  align-content: center;
+  width: 200px;
+  }
+
+.boton a {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 70px;
+  text-decoration: none;
+}
+
+.boton :hover {
+  background-color: red;
+}

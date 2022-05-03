@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+  margin: 50px;
+
+}
+
+div {
+    padding: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+}
+a:hover {
+  border-radius: 5px 5px 5px 5px;
+  background-color: green;
+}

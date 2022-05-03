@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  margin: 20px;
+  background-color: beige;
+  height: 100px;
+}
+
+.contenedor div {
+  margin: 45px;
+}
+
+.link {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 0px 200px;
+  
+}
+
+.link a {
+  background-color: rgb(190, 190, 184);
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  height: 30px;
+  
+  }
+
+.boton {
+  background-color: blue;
+
+}
+
+.boton a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: 10px 10px;
+}
