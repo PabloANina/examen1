@@ -9,16 +9,16 @@ html {
 }
 .contenedor1 {
   display: flex;
-  background-color: gray;
+  background-color: rgb(155, 149, 149);
   padding: 20px auto;
   height: 100px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .cuadro-pink {
   display: flex;
   align-content: flex-start;
-  background-color: rgb(202, 18, 104);
+  background-color: rgb(253, 4, 120);
   margin: 20px;
   height: 50px;
   width: 200px;
@@ -31,7 +31,6 @@ html {
   height: auto;
   width: auto;
   margin-top: 20px;
-  margin-left: 100px;
 }
 
 .contenedor-red div {
@@ -53,4 +52,12 @@ html {
   margin: 15px;
   height: 200px;
   width: 400px;
+}
+
+@media screen and (max-width: 769px) {
+  .cuadro-pink {
+  width: 200px;
+  .contenedor-red div {
+    width: 150px;
+  }
 }
