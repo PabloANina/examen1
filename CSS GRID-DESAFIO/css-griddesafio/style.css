@@ -24,17 +24,18 @@ html {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 0px 200px;
+  justify-content: space-evenly;
+  background-color: rgb(190, 190, 184);
+  align-content: center;
   
 }
 
-.link a {
-  background-color: rgb(190, 190, 184);
+.link a { 
   text-decoration: none;
   text-align: center;
   color: black;
-  height: 30px;
-  
-  }
+  height: 30px;   
+}
 
 .boton {
   background-color: blue;
